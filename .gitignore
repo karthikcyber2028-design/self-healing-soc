@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+soc.db
+soc_model.joblib
