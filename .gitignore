@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local database / runtime
+*.db
+*.db-shm
+*.db-wal
+soc_data.db
+backend/soc_data.db
+
+# ML artifacts (large binaries stay local / re-trained in Colab)
+*.joblib
+soc_model.joblib
+backend/app/ml/soc_model.joblib
+
+# Node
+node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# Flutter / Dart
+mobile_app/build/
+mobile_app/.dart_tool/
+mobile_app/.packages
+mobile_app/.flutter-plugins*
+mobile_app/android/.gradle/
+mobile_app/ios/Pods/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend.log
+
+# Env / secrets
+.env
+*.env
